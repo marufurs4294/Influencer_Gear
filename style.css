@@ -8,3 +8,37 @@ body{
 .bg-pink{
     background-color: #E02C6D;
 }
+.btn-pink{
+    color: #fff;
+    transition: .5s;
+    border: 0;
+}
+.btn-pink:hover{
+    color: #000;
+    
+}
+h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+p{
+    color: #3A3A3A;
+    font-size:18px;
+    font-weight: 500;
+    padding: 10px 0;
+
+}
+img{
+    width: 100%;
+}
+/* Top Banner */
+.banner-image{
+    background: url(images/Circle\ design.svg) no-repeat;
+}
+.camera{
+    transition:ease-in 1.5s;
+}
+.camera:hover{
+    transform: rotate(45deg);
+}
